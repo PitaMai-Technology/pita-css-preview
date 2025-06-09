@@ -26,4 +26,8 @@
 
 </script>
 
-<style scoped></style>
+<style>
+button {
+    color: var(--white);
+}
+</style>

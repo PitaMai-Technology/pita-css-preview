@@ -1,6 +1,5 @@
 <template>
-    test<br>
-    <NuxtLink to="/">Home</NuxtLink>
+    3秒後にローディング(SSR)が完了します。
 </template>
 
 <script setup>

@@ -1,11 +1,11 @@
 <template>
     <header class="headerContainer">
-        <div class="logoContainer hideMax768">
+        <div class="logoContainer hide-max768">
             <NuxtLink to="/">
                 <NuxtImg src="/img/pitamai-logo.svg" alt="PitaMaiロゴ" />
             </NuxtLink>
         </div>
-        <div class="logoContainerSp hideMin768">
+        <div class="logoContainerSp hide-min768">
             <NuxtLink to="/">
                 <NuxtImg src="/img/pitamai-only-logo.svg" alt="PitaMaiロゴ" />
             </NuxtLink>
