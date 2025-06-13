@@ -1,13 +1,13 @@
 <template>
-    <header class="headerContainer">
-        <div class="logoContainer hide-max768">
+    <header>
+        <div class="logo-container hide-max768">
             <NuxtLink to="/">
-                <NuxtImg src="/img/pitamai-logo.svg" alt="PitaMaiロゴ" />
+                PitaCSS(α)
             </NuxtLink>
         </div>
-        <div class="logoContainerSp hide-min768">
+        <div class="logo-container-responsive hide-min768">
             <NuxtLink to="/">
-                <NuxtImg src="/img/pitamai-only-logo.svg" alt="PitaMaiロゴ" />
+                PitaCSS(α)
             </NuxtLink>
         </div>
     </header>
@@ -17,35 +17,6 @@
 </script>
 
 <style>
-.headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--whiteColor100, #ffffff);
-    box-shadow: var(--standardShadow, 0px 2px 10px -3px rgba(0, 0, 0, 0.3));
-    position: sticky;
-    top: 0;
-    z-index: 200;
-    height: 72px;
-    padding: 0 40px;
-
-    @media screen and (max-width: 1250px) {
-        padding: 0 20px;
-        justify-content: flex-end;
-    }
-}
-
-.logoContainer {
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-}
-
-.logoContainerSp{
-    display: flex;
-    align-items: center;
-    max-width: 180px;
-}
 
 .logoText {
     font-size: var(--smallMediumFontSize, 1.5rem);
